@@ -6,6 +6,8 @@
     <!-- Bootstrap -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Icon -->
+    <link rel="shortcut icon" href="Train.png" />
     <!-- Local css -->
     <link rel="stylesheet " type="text/css" href="styles.css">
     <!--.....Change your path to .css if needed.....-->
@@ -22,12 +24,12 @@
 <body>
     <div class="container">
         <!-- Header row -->
-            <div class="col-xs-12 jumbotron">
-                <h1 id="headerText">
-                    <b>Anytime is Train Time</b>
-                </h1>
-                <h2 id="headerComment">Choo-Choo, ch, ch, ch, ch!!!</h2>
-            </div>
+        <div class="col-xs-12 jumbotron">
+            <h1 id="headerText">
+                <b>Anytime is Train Time</b>
+            </h1>
+            <h2 id="headerComment">Choo-Choo, ch, ch, ch, ch!!!</h2>
+        </div>
         <!-- List row where all the information will be stored -->
         <div class="row">
             <div class="col-xs-12" id="list">
@@ -46,11 +48,7 @@
                         </thead>
                         <tbody id="trainList">
                             <tr>
-                                <td>null</td>
-                                <td>null</td>
-                                <td>null</td>
-                                <td>null</td>
-                                <td>null</td>
+                                
                             </tr>
                         </tbody>
                     </table>
@@ -70,12 +68,12 @@
                     <!-- Destination -->
                     <div class="input-group">
                         <span class="input-group-addon">Destination</span>
-                        <input id ="dest-input" type="text" class="form-control" placeholder="Example: North Pole" value="">
+                        <input id="dest-input" type="text" class="form-control" placeholder="Example: North Pole" value="">
                     </div>
                     <!-- First Train Time -->
                     <div class="input-group">
                         <span class="input-group-addon">First Train Time (HH:MM - military time)</span>
-                        <input id="time-input"type="text" class="form-control" placeholder="Example: 16:05" value="">
+                        <input id="time-input" type="text" class="form-control" placeholder="Example: 16:05" value="">
                     </div>
                     <!-- Frequency -->
                     <div class="input-group">
